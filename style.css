@@ -36,6 +36,7 @@
 }
 .moinhos img {
     animation: moinhos 1.5s infinite;
+    animation-timing-function: linear;
 }
 .mini-moinho {
     position: absolute;
