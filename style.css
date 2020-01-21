@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 600px;
+    background: lime;
+}
+.garden {
+    width: 100%;
+    background-image: url(gramas.png);
+    position: absolute;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+.holandesa {
+    width: 533px;
+    height: 159px;
+    background-image: url(holandesa.png);
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2.9%;
+    background-position-y: bottom;
+}
+.casinha {
+    width: 583px;
+    height: 277px;
+    background-image: url(casinha.png);
+    position: relative;
+    background-position: bottom;
+    float: right;
+}
