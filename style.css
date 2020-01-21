@@ -34,8 +34,8 @@
     float: right;
     
 }
-.moinhos {
-    
+.moinhos img {
+    animation: moinhos 1.5s infinite;
 }
 .mini-moinho {
     position: absolute;
@@ -49,5 +49,11 @@
     right: -6.5%;
     top: -20%;
     z-index: -1;
+}
 
+@keyframes moinhos {
+
+    100% {
+        transform: rotate(360deg)
+    }
 }
